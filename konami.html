@@ -6,11 +6,11 @@ Konami found! Now you can Konami back.
 
 <script type="text/javascript">                                                                                                                                                                             
 if ( window.addEventListener ) {                                                                                                                                                                            
-  var state = 0, konami = [38,38,40,40,37,39,37,39,66,65];                                                                                                                                                  
+  var state = 0, konami = [75,79,78,65,77,73];
   window.addEventListener("keydown", function(e) {                                                                                                                                                          
     if ( e.keyCode == konami[state] ) state++;                                                                                                                                                              
     else state = 0;                                                                                                                                                                                         
-    if ( state == 10 )                                                                                                                                                                                      
+    if ( state == 6 )                                                                                                                                                                                      
       window.location = "index.html";  //you can write your own code here                                                                                                                                  
     }, true);                                                                                                                                                                                               
 }                                                                                                                                                                                                           
