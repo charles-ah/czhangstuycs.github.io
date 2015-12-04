@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+      <title>Grapher Input</title>
+      <!-- CSS  -->
+      <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+   </head>
+   <body>
+      <form method="GET" action="formPrint.py">
+		<center><br><br><br>
+	<table class="striped">
+		<form action="formPrint.py" method="GET">
+          <tr>
+            <td>
+              <h3>Grapher</h3>
+        <div class="row">
+        <form class="col s12">
+        <div class="row"></div>
+        <div class="row">
+        <div class="input-field col s12">
+        <input id="equation" name="equation" placeholder="x+1" type="text" name="user" class="validate">
+        <label for="equation">Equation Y=(5)</label>
+        </div>
+        </div>
+        <input type="submit" class="btn btn-success" name="status" value="submit">
+	</table>
+		</center>
+      </form>
+	<!--  Scripts-->
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script src="js/init.js"></script>
+   </body>
+</html>

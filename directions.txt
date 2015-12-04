@@ -1,0 +1,6 @@
+DIRECTIONS:
+
+- EGraph.html is the homepage
+- enter expressions(ex. x+1,x^2) into text and submit. unfortunately it does not accept special functions,ex. trigonometric functions, logarithmic functions, floor.ceiling functions, etc.
+- add additional graph by going back to EGraph.html and graphing additional graphs
+- clear graph by click the Clear Graph button and typing in a new equation
